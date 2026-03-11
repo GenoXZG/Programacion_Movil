@@ -1,43 +1,30 @@
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-.kotlin
+# --- COMPILADOS Y BUILD (Basura generada) ---
+/build/
+/out/
+/bin/
+*.class
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# --- DEPENDENCIAS Y CACHÉ ---
+.gradle/
+*.log
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# --- CONFIGURACIONES DE IDE (Bloqueo total) ---
+# Ignoramos la carpeta entera. Tu config es TUYA, no del repo.
+.idea/
 .vscode/
+.settings/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
 
-### Mac OS ###
+# --- SISTEMA OPERATIVO ---
 .DS_Store
+Thumbs.db
+
+# --- EXCEPCIONES VITALES (Lo que SÍ debe subir) ---
+# Ignoramos todos los jars por defecto...
+*.jar
+# ...PERO salvamos el wrapper de Gradle porque es esencial para correr el proyecto.
+!gradle/wrapper/gradle-wrapper.jar
