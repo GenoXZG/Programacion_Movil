@@ -1,5 +1,7 @@
-package org.example;
+// Gato
+// ALUMNO: Zarate Gonzalez Luis David
 
+package org.example;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
