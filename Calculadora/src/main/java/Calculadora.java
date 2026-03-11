@@ -1,4 +1,5 @@
-package org.example;
+// Calculadora con Lambdas
+// ALUMNO: Zarate Gonzalez Luis David
 
 import java.awt.Font;
 import java.awt.GridLayout;
