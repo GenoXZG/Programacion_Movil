@@ -20,7 +20,6 @@ public class Calculadora extends JFrame {
     public Calculadora() {
         setTitle("Casio");
         setSize(400, 400);
-        // Uso de constante en lugar de número mágico (3 -> EXIT_ON_CLOSE)
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridLayout(4, 1));
 
